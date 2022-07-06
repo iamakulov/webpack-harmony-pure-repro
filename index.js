@@ -1,5 +1,7 @@
-import { childExport } from "./child-module";
-console.log("running root");
+import React from "react";
 
-const func1 = () => console.log(childExport);
-/*#__PURE__*/ func1();
+const component = /*#__PURE__*/ React.createElement(
+  "div",
+  null,
+  "Hello world!"
+);
