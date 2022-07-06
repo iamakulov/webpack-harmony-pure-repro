@@ -1,7 +1,5 @@
-import React from "react";
+import css from "styled-components";
 
-const component = /*#__PURE__*/ React.createElement(
-  "div",
-  null,
-  "Hello world!"
-);
+const buttonStyles = /*#__PURE__*/ css`
+  color: red;
+`;
